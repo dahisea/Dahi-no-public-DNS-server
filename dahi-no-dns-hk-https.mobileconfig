@@ -11,7 +11,10 @@
 				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
+					<string>47.57.233.126</string>
+					<string>47.57.14.118</string>
 					<string>167.179.32.53</string>
+					<string>2606:4700:3018:663c:481a:42b5:916b:669d</string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://doh-cloudflare.dahi.icu/dns-query</string>
