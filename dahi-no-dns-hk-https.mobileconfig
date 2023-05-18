@@ -11,22 +11,22 @@
 				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>47.57.233.126</string>
 					<string>47.57.14.118</string>
+					<string>47.57.233.126</string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://doh-cloudflare.dahi.icu/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use DAHI DNS over HTTPS</string>
+			<string>Configures device to use DNS Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
-			<string>DAHI hk DNS</string>
+			<string>DNS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.9d6e5fdf-e404-4f34-ae94-27ed2f636ai6</string>
+			<string>com.apple.dnsSettings.managed.C498EC0C-EF6C-44F0-BFB7-0000659B99AC</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>AADC443A-E6B1-4F18-9093-CEA9B106CXK2</string>
+			<string>065AB183-5E34-4794-9BEB-B5327CF61F28</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -34,17 +34,17 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the DAHI DNS over HTTPS to Big Sur and iOS 114514 based systems</string>
+	<string>Adds the DNS to Big Sur and iOS 14 based systems</string>
 	<key>PayloadDisplayName</key>
-	<string>DAHI hk DNS over HTTPS</string>
+	<string>DNS</string>
 	<key>PayloadIdentifier</key>
-	<string>chk.ikun.apple-dns</string>
+	<string>com.dahi.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>32663B5D-707C-48BD-90C5-114E8421IKUN</string>
+	<string>030E6D6F-69A2-4515-9D77-99342CB9AE77</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
