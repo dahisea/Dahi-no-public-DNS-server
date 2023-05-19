@@ -14,7 +14,7 @@
 					<string>47.57.233.126</string>
 				</array>
 				<key>ServerURL</key>
-				<string>https://doh-cloudflare.dahi.icu/dlookup</string>
+				<string>https://cnnic-chinatelecom-chinamobile-chinaunicom--bili-d.dahi.icu/dlookup</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use DNS Encrypted DNS over HTTPS</string>
