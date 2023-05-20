@@ -11,7 +11,7 @@
 				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
-				<string>2606:4700:3018:663c:481a:42b5:916b:669d</string>
+			         	<string>2606:4700:3018:663c:481a:42b5:916b:669d</string>
 					<string>47.57.233.126</string>
 					<string>47.57.14.118</string>
 				</array>
