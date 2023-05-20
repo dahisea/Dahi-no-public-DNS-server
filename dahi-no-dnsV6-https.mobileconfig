@@ -11,11 +11,12 @@
 				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
+				<string>2606:4700:3018:663c:481a:42b5:916b:669d</string>
 					<string>47.57.233.126</string>
-					<string>2606:4700:3018:663c:481a:42b5:916b:669d</string>
+					<string>47.57.14.118</string>
 				</array>
 				<key>ServerURL</key>
-				<string>https://cnnic-chinatelecom-chinamobile-chinaunicom--bili-d.dahi.icu/dlookup</string>
+				<string>https://cnnic-chinatelecom-chinamobile-chinaunicom--bili-d.dahi.icu/webtranslate/api/dlookup</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use DNS Encrypted DNS over HTTPS</string>
