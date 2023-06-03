@@ -13,6 +13,7 @@
 				<array>
 					<string>47.57.233.126</string>
 					<string>47.57.14.118</string>
+					<string>149.129.8.215</string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://cnnic-chinatelecom-chinamobile-chinaunicom--bili-d.dahi.icu/webtranslate/api/dlookup</string>
