@@ -14,7 +14,7 @@
 					<string>47.57.14.118</string>
 				</array>
 				<key>ServerURL</key>
-				<string>https://cnnic-chinatelecom-chinamobile-chinaunicom--bili-d.dahi.icu/webtranslate/api/dlookup</string>
+				<string>https://get-resolution-s-a-r-cdn.dahi.icu/webtranslate/api/dlookup</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use DNS Encrypted DNS over HTTPS</string>
