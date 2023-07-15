@@ -21,6 +21,6 @@ A DOH dns which could be use in China Mainland.
 
 
 ### iOS/iPad OS DOH
-#### 香港特别行政区阿里云反代节点
+#### 优选节点
 
 `https://cdn.jsdelivr.net/gh/dahisea/Dahi-no-public-DNS-server/dahi-no-dns-https.mobileconfig`
