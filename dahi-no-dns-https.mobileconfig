@@ -15,7 +15,7 @@
 					<string>103.21.244.96</string>
 				</array>
 				<key>ServerURL</key>
-				<string>https://get-resolution-ok-cdn.dahi.icu/webtranslate/api/dlookup</string>
+				<string>https://get-resolution-ok-cdn.dahi.icu/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use DNS Encrypted DNS over HTTPS</string>
