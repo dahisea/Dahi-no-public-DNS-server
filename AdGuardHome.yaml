@@ -1,0 +1,296 @@
+http:
+  pprof:
+    port: 6060
+    enabled: false
+  address: 0.0.0.0:3000
+  session_ttl: 720h
+users:
+  - name: root
+    password: $2a$10$zHcQbG4nXIzPB/Cj5M9lQ.qbQH/EZAT2wakz/sK1.b/d4ey2oqUd2
+auth_attempts: 15
+block_auth_min: 0
+http_proxy: ""
+language: ""
+theme: auto
+dns:
+  bind_hosts:
+    - 0.0.0.0
+  port: 53
+  anonymize_client_ip: true
+  ratelimit: 0
+  ratelimit_whitelist: []
+  refuse_any: true
+  upstream_dns:
+    - https://get-resolution-ok-cdn.dahi.icu/dns-query
+    - '[/cn/]https://223.6.6.6/dns-query'
+    - '[/163.com/]https://223.6.6.6/dns-query'
+    - '[/163jiasu.com/]https://223.6.6.6/dns-query'
+    - '[/netease.com/]https://223.6.6.6/dns-query'
+    - '[/126.net/]https://223.6.6.6/dns-query'
+    - '[/steamserver.net/]https://223.6.6.6/dns-query'
+    - '[/steampowered.com/]https://223.6.6.6/dns-query'
+    - '[/steamcommunity.com/]https://223.6.6.6/dns-query'
+    - '[/steamgames.com/]https://223.6.6.6/dns-query'
+    - '[/cloudflare.net/]https://1.0.0.1/dns-query'
+    - '[/one.one/]https://1.0.0.1/dns-query'
+    - '[/cloudflare-dns.com/]https://1.0.0.1/dns-query'
+    - '[/cloudflarestream.com/]https://1.0.0.1/dns-query'
+    - '[/cloudflare.tv/]https://1.0.0.1/dns-query'
+    - '[/cloudflare.com/]https://1.0.0.1/dns-query'
+    - '[/cloudflare-cn.com/]https://1.0.0.1/dns-query'
+  upstream_dns_file: ""
+  bootstrap_dns:
+    - https://1.0.0.1/dns-query
+  fallback_dns: []
+  all_servers: true
+  fastest_addr: false
+  fastest_timeout: 1s
+  allowed_clients: []
+  disallowed_clients: []
+  blocked_hosts:
+    - version.bind
+    - id.server
+    - hostname.bind
+    - '||com.host^'
+    - '||internet-census.org^'
+    - '||dnsscan.top^'
+    - dnsscan.shadowserver.org
+    - stackoverflow.com
+    - cyberresilience.io
+  trusted_proxies:
+    - 127.0.0.0/8
+    - ::1/128
+  cache_size: 4294967295
+  cache_ttl_min: 0
+  cache_ttl_max: 300
+  cache_optimistic: true
+  bogus_nxdomain: []
+  aaaa_disabled: false
+  enable_dnssec: true
+  edns_client_subnet:
+    custom_ip: 59.172.89.64
+    enabled: true
+    use_custom: false
+  max_goroutines: 300
+  handle_ddr: true
+  ipset: []
+  ipset_file: ""
+  bootstrap_prefer_ipv6: false
+  upstream_timeout: 10s
+  private_networks: []
+  use_private_ptr_resolvers: false
+  local_ptr_upstreams: []
+  use_dns64: false
+  dns64_prefixes: []
+  serve_http3: false
+  use_http3_upstreams: false
+tls:
+  enabled: false
+  server_name: ""
+  force_https: false
+  port_https: 443
+  port_dns_over_tls: 853
+  port_dns_over_quic: 853
+  port_dnscrypt: 0
+  dnscrypt_config_file: ""
+  allow_unencrypted_doh: true
+  certificate_chain: ""
+  private_key: ""
+  certificate_path: ""
+  private_key_path: ""
+  strict_sni_check: false
+querylog:
+  ignored: []
+  interval: 24h
+  size_memory: 1000
+  enabled: true
+  file_enabled: true
+statistics:
+  ignored: []
+  interval: 24h
+  enabled: true
+filters:
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
+    name: AdAway Default Blocklist
+    id: 2
+  - enabled: true
+    url: https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts
+    name: Mi
+    id: 1691731480
+  - enabled: true
+    url: https://raw.githubusercontent.com/dahisea/mihoyo-log-stop-dns-hosts-filter/main/hosts
+    name: Mhy
+    id: 1691731481
+  - enabled: true
+    url: https://raw.githubusercontent.com/dahisea/zuoyebang-Ads-clean-dns-hosts-filter/main/hosts
+    name: Zyb
+    id: 1691731482
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+    name: Elw
+    id: 1691731483
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/easylist.txt
+    name: El
+    id: 1691731485
+  - enabled: true
+    url: https://github.com/sioxe823/Project-RnJlRUhL/raw/main/chinese_thirdparty_tracker.txt
+    name: c3track
+    id: 1691731486
+  - enabled: true
+    url: https://github.com/sioxe823/Project-RnJlRUhL/raw/main/chinese_gov_forced_install.txt
+    name: cfz
+    id: 1691731487
+  - enabled: true
+    url: https://raw.githubusercontent.com/FutaGuard/LowTechFilter/master/nofarm_hosts.txt
+    name: ljmt
+    id: 1691731488
+  - enabled: true
+    url: https://github.com/festum/anti-bias-media/raw/master/ublacklist.txt
+    name: redmt
+    id: 1691731489
+  - enabled: true
+    url: https://raw.githubusercontent.com/neoFelhz/neohosts/data/_data/extra/fuck_falun_gong.txt
+    name: flg
+    id: 1691731490
+  - enabled: true
+    url: https://raw.githubusercontent.com/neoFelhz/neohosts/data/_data/extra/analytics.txt
+    name: fenxi
+    id: 1691731491
+  - enabled: true
+    url: https://github.com/neoFelhz/neohosts/raw/data/_data/extra/2345.txt
+    name: "2345"
+    id: 1691731492
+  - enabled: true
+    url: https://raw.githubusercontent.com/neoFelhz/neohosts/data/_data/extra/cnzz.txt
+    name: cnzz
+    id: 1691731493
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_23.txt
+    name: WindowsSpyBlocker - Hosts spy rules
+    id: 1694850565
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
+    name: Perflyst and Dandelion Sprout's Smart-TV Blocklist
+    id: 1694850566
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt
+    name: Phishing Army
+    id: 1694850567
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt
+    name: Phishing URL Blocklist (PhishTank and OpenPhish)
+    id: 1694850568
+  - enabled: true
+    url: https://raw.githubusercontent.com/dahisea/BanRuleExt_File/main/blocked_hosts.txt
+    name: Close
+    id: 1697813850
+  - enabled: true
+    url: https://raw.githubusercontent.com/dahisea/BanRuleExt_File/main/simplevia.txt
+    name: Via
+    id: 1697959979
+  - enabled: true
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt
+    name: Qf
+    id: 1699713787
+whitelist_filters: []
+user_rules:
+  - /96110/
+  - '||digicert.cn^'
+  - '@@||bilibili.com^'
+  - '@@||163yun.com^'
+  - '@@||adsense.google.com^'
+  - ""
+dhcp:
+  enabled: false
+  interface_name: ""
+  local_domain_name: lan
+  dhcpv4:
+    gateway_ip: ""
+    subnet_mask: ""
+    range_start: ""
+    range_end: ""
+    lease_duration: 86400
+    icmp_timeout_msec: 1000
+    options: []
+  dhcpv6:
+    range_start: ""
+    lease_duration: 86400
+    ra_slaac_only: false
+    ra_allow_slaac: false
+filtering:
+  blocking_ipv4: ""
+  blocking_ipv6: ""
+  blocked_services:
+    schedule:
+      time_zone: UTC
+    ids: []
+  protection_disabled_until: null
+  safe_search:
+    enabled: false
+    bing: true
+    duckduckgo: true
+    google: true
+    pixabay: true
+    yandex: true
+    youtube: true
+  blocking_mode: null_ip
+  parental_block_host: family-block.dns.adguard.com
+  safebrowsing_block_host: standard-block.dns.adguard.com
+  rewrites:
+    - domain: sg-hkrpg-api.hoyoverse.com
+      answer: h-cdnamazon.dahi.icu
+    - domain: hkrpg-sdk-os.hoyoverse.com
+      answer: h-cdnamazon.dahi.icu
+    - domain: sg-public-data-api.hoyoverse.com
+      answer: h-cdnamazon.dahi.icu
+    - domain: sdk.hoyoverse.com
+      answer: h-cdnamazon.dahi.icu
+    - domain: prod-official-asia-dp01.starrails.com
+      answer: dahi.icu
+    - domain: globaldp-prod-os01.starrails.com
+      answer: dahi.icu
+    - domain: iosapps.itunes.apple.com
+      answer: 17.253.85.201
+    - domain: osxapps.itunes.apple.com
+      answer: 17.253.85.201
+    - domain: publicassets.cdn-apple.com
+      answer: 103.254.191.161
+    - domain: aod.itunes.apple.com
+      answer: 17.253.85.201
+    - domain: download.developer.apple.com
+      answer: 17.253.85.201
+    - domain: devimages-cdn.apple.com
+      answer: 17.253.85.201
+  safebrowsing_cache_size: 1048576
+  safesearch_cache_size: 1048576
+  parental_cache_size: 1048576
+  cache_time: 30
+  filters_update_interval: 72
+  blocked_response_ttl: 30
+  filtering_enabled: true
+  parental_enabled: false
+  safebrowsing_enabled: false
+  protection_enabled: true
+clients:
+  runtime_sources:
+    whois: true
+    arp: true
+    rdns: false
+    dhcp: true
+    hosts: true
+  persistent: []
+log:
+  file: ""
+  max_backups: 0
+  max_size: 100
+  max_age: 3
+  compress: false
+  local_time: false
+  verbose: false
+os:
+  group: ""
+  user: ""
+  rlimit_nofile: 0
+schema_version: 27
