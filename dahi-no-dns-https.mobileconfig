@@ -11,8 +11,10 @@
 				<string>HTTPS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>162.159.128.0</string>
-					<string>103.21.244.96</string>
+					<string>76.76.21.241</string>
+					<string>76.76.21.22</string>
+					<string>76.76.21.123</string>
+					<string>76.76.21.98</string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://get-resolution-ok-cdn.dahi.icu/dns-query</string>
