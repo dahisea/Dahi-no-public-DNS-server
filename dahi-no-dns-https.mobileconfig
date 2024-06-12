@@ -2,52 +2,59 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>76.76.21.241</string>
-					<string>76.76.21.22</string>
-					<string>76.76.21.123</string>
-					<string>76.76.21.98</string>
-				</array>
-				<key>ServerURL</key>
-				<string>https://get-resolution-ok-cdn.dahi.icu/dns-query</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use DNS Encrypted DNS over HTTPS</string>
-			<key>PayloadDisplayName</key>
-			<string>Dahi no DNS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.C498EC0C-EF6C-44F0-BFB7-0000659B93AC</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>065AB183-5E34-4794-9BEB-B5327CF61F88</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Adds the DNS to Big Sur and iOS 114514 based systems</string>
-	<key>PayloadDisplayName</key>
-	<string>Dahi no DNS</string>
-	<key>PayloadIdentifier</key>
-	<string>com.dahi.apple-dns</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>030E6D6F-69A2-4515-9D77-99342CB9AE87</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
+    <!-- Configuration Payload -->
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.dahi.apple-dns</string>
+    <key>PayloadUUID</key>
+    <string>030E6D6F-69A2-4515-9D77-99342CB9AE87</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadDisplayName</key>
+    <string>Dahi no DNS</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadDescription</key>
+    <string>This payload configures devices to use encrypted DNS over HTTPS for secure network communication.</string>
+
+    <!-- DNS Settings -->
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <!-- DNS Settings Details -->
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://get-resolution-ok-cdn.dahi.icu/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <!-- DNS Server Addresses -->
+                    <string>103.21.244.96</string>
+                    <string>162.159.242.8</string>
+                    <string>172.64.104.235</string>
+                    <string>104.19.3.175</string>
+                </array>
+            </dict>
+            
+            <!-- Payload Display Information -->
+            <key>PayloadDisplayName</key>
+            <string>Dahi no DNS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use encrypted DNS over HTTPS for secure network communication</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.C498EC0C-EF6C-44F0-BFB7-0000659B93AC</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>065AB183-5E34-4794-9BEB-B5327CF61F88</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ProhibitDisablement</key>
+            <false/>
+        </dict>
+    </array>
 </dict>
 </plist>
