@@ -10,12 +10,12 @@
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
 					<key>ServerURL</key>
-					<string>https://get-resolution-ok-cdn.dahi.icu/dns-query</string>
+					<string>https://datanodeserver.e.e.1.b.1.c.7.6.4.1.a.2.ip6.arpa/dns-query</string>
 				</dict>
 				<key>PayloadDescription</key>
-				<string>1919810</string>
+				<string>114514</string>
 				<key>PayloadDisplayName</key>
-				<string>Dahi</string>
+				<string>Dahi Node</string>
 				<key>PayloadIdentifier</key>
 				<string>com.apple.dnsSettings.managed.47239bc0-c970-4833-b463-7c5a41f05ieb</string>
 				<key>PayloadType</key>
@@ -27,7 +27,7 @@
 			</dict>
 		</array>
 		<key>PayloadDescription</key>
-		<string>1919810</string>
+		<string>installation</string>
 		<key>PayloadDisplayName</key>
 		<string>114514</string>
 		<key>PayloadIdentifier</key>
