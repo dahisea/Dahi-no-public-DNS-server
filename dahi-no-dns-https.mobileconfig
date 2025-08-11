@@ -9,8 +9,12 @@
 				<dict>
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
+    <key>ServerAddresses</key>
+			 	<array>
+					<string>75.2.60.5</string>
+			 	</array>
 					<key>ServerURL</key>
-					<string>https://datanodeserver.e.e.1.b.1.c.7.6.4.1.a.2.ip6.arpa/dns-query</string>
+<string>https://datanodeserver.e.e.1.b.1.c.7.6.4.1.a.2.ip6.arpa/dns-query</string>
 				</dict>
 				<key>PayloadDescription</key>
 				<string>114514</string>
