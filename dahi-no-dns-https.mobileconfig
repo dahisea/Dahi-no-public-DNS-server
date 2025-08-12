@@ -11,7 +11,7 @@
 					<string>HTTPS</string>
                     <key>ServerAddresses</key>
 			    	<array>
-					<string>75.2.60.5</string>
+					<string>91.193.58.29</string>
 			    	</array>
 			        <key>ServerURL</key>
                     <string>https://datanodeserver.e.e.1.b.1.c.7.6.4.1.a.2.ip6.arpa/dns-query</string>
