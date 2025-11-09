@@ -14,7 +14,7 @@
 					<string>91.193.58.21</string>
 			    	</array>
 			        <key>ServerURL</key>
-                    <string>https://https://volcengine-cf-abtest.dahi.edu.eu.org/linuxdo/dns-query</string>
+                    <string>https://volcengine-cf-abtest.dahi.edu.eu.org/linuxdo/dns-query</string>
 				</dict>
 				<key>PayloadDescription</key>
 				<string>114514</string>
