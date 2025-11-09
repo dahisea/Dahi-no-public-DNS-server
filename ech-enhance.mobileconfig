@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+                    <key>ServerAddresses</key>
+			    	<array>
+					<string>91.193.58.21</string>
+			    	</array>
+			        <key>ServerURL</key>
+                    <string>https://https://volcengine-cf-abtest.dahi.edu.eu.org/linuxdo/dns-query</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>114514</string>
+				<key>PayloadDisplayName</key>
+				<string>Dahi Node</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.47239bc0-c970-4833-b463-7c5a41f05ioi</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>593a65a3-77ef-44cf-b313-5e81ad44na9e</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>installation</string>
+		<key>PayloadDisplayName</key>
+		<string>114514</string>
+		<key>PayloadIdentifier</key>
+		<string>26fbf741-c007-4da6-a08d-5fbc12ff1213</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>c7b31a7d-6168-4436-9b4d-b7e4f3e8e1va</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
