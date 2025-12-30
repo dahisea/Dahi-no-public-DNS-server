@@ -9,7 +9,6 @@
 				<dict>
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
-			    	</array>
 			        <key>ServerURL</key>
                     <string>https://api-abtest-cdn.dahi.edu.cn.dahi.e.yu.ac.cn/e/dns-query</string>
 				</dict>
