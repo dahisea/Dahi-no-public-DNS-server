@@ -10,7 +10,8 @@
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
 			    	</array>
-			        <key>ServerURL</key>                    <string>https://api-abtest-cdn.dahi.edu.cn.dahi.e.yu.ac.cn/dns-query</string>
+			        <key>ServerURL</key>
+                    <string>https://api-abtest-cdn.dahi.edu.cn.dahi.e.yu.ac.cn/dns-query</string>
 				</dict>
 				<key>PayloadDescription</key>
 				<string>114514</string>
