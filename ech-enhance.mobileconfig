@@ -9,8 +9,12 @@
 				<dict>
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+			    	<array>
+					<string>172.64.52.66</string>
+			    	</array>
 			        <key>ServerURL</key>
-                    <string>https://api-abtest-cdn.dahi.edu.cn.dahi.e.yu.ac.cn/e/dns-query</string>
+                    <string>https://datanodes.dahi.eu.org/linuxdo/dns-query</string>
 				</dict>
 				<key>PayloadDescription</key>
 				<string>114514</string>
